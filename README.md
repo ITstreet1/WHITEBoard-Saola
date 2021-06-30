@@ -117,7 +117,7 @@ If the project is for use with a battery, there is a switch on the right side th
 
 ## Dimensions
 
-Dimensions of this board is 28x90mm. The hight is 7mm (without headers).
+Dimensions of this board are 28x90mm. The hight is 7mm (without headers).
 
 ## Disclaimer
 
