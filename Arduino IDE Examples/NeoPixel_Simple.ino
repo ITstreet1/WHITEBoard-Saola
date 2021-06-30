@@ -1,4 +1,4 @@
-/* Small modification of a Adafruit NeoPixel example
+/* Small modification of Adafruit NeoPixel example
  * Author Dejan Petrovic
  * 6/30/2021
  * v1.0
