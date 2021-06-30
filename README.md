@@ -69,7 +69,7 @@ in File->Preferences->URL and then install through board manager. When done, jus
 
 If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended  driver.
 
--- under development section --
+-- under construction section --
 
 ![20210630_141012](https://user-images.githubusercontent.com/30090189/123969673-bba08080-d9b8-11eb-8d52-94eccd9d4cb3.jpg)
 
