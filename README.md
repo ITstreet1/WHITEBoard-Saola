@@ -107,7 +107,7 @@ For Li-Po charging tehere is the MCP73831 IC. With a resistor R16 of 2K, chargin
 
 Onboard there is a JST 2.00mm pitch connector. As JST is NOT standardized, please check the battery polarity. Wrong polarity can destroy the board and/or battery. Supported batteries are standard Li-Ion/Li-Po with 3.7V nominal voltage. You can use a battery of any capacity.
 
-If the project is for use with a battery, there is a switch on the right side that basically  switch from VCC to GND on the EN pin of a voltage regulator. This way you can enable or disable power to the BOARD. In case you can not upload the sketch to a WHITEBoard Saola, please check the position of this switch.
+If the project is for use with a battery, there is a switch on the right side that basically switch from VCC to GND on the EN pin of a voltage regulator. This way you can enable or disable power to the BOARD. In case you can not upload the sketch to a WHITEBoard Saola, please check the position of this switch. While turned OFF by this switch, you can still charge the battery by any of the micro USB ports.
 
 ![20210630_141027](https://user-images.githubusercontent.com/30090189/123978647-52bd0680-d9c0-11eb-8733-6fbeafa35515.jpg)
 
