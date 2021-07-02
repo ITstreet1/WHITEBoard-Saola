@@ -63,11 +63,21 @@ WHITEBoard Saola is a development board based on ESP32 S2 module. It has all fea
 
 WHITEBoard Saola is a development board that can be programmed through Arduino IDE, or CircuitPython and MicroPython. 
 
+### Arduino IDE C/C++
+
+#### PROG PORT
+
 For Arduino IDE, first you have to add ESP32-S2 support. This can be done by adding V2.0 Boards support:
 -https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
-in File->Preferences->URL and then install through board manager. When done, just select ESP32S2 Dev Module in Boards and you are good to go. Here you can find some example sketches that will work with hardware on-board. They are not in a form of a library. By plugging to a computer through a PROG micro USB port, the upload will be done without the need to press BOOT or RST buttons.
+in File->Preferences->URL and then install through board manager. When done, just select ESP32S2 Dev Module in Boards, proper port and you are good to go. Here you can find some example sketches that will work with hardware on-board. They are not in a form of a library. By plugging into a computer through a PROG micro USB port, the upload will be done without the need to press BOOT or RST buttons.
 
-If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended  driver (ESP32-S2 (Interface_2)).
+#### OTG PORT
+
+To use this port to upload the sketch, first, you need to install a driver for ESP32-S2. First, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S2 (Interface_2)). After that, Saola will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method.
+
+### CircuitPython
+
+If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. 
 
 -- under construction section --
 
