@@ -67,7 +67,7 @@ For Arduino IDE, first you have to add ESP32-S2 support. This can be done by add
 -https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 in File->Preferences->URL and then install through board manager. When done, just select ESP32S2 Dev Module in Boards and you are good to go. Here you can find some example sketches that will work with hardware on-board. They are not in a form of a library. By plugging to a computer through a PROG micro USB port, the upload will be done without the need to press BOOT or RST buttons.
 
-If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended  driver.
+If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended  driver (ESP32-S2 (Interface_2)).
 
 -- under construction section --
 
@@ -101,7 +101,7 @@ If the project is for use with a battery, there is a switch on the right side th
 
 ![20210630_141027](https://user-images.githubusercontent.com/30090189/123978647-52bd0680-d9c0-11eb-8733-6fbeafa35515.jpg)
 
-## Cons
+## PROS
 
 * LiPo battery
 * RGB LED
@@ -111,9 +111,10 @@ If the project is for use with a battery, there is a switch on the right side th
 * OTG and UART micro USB
 * Complete GPIO pinout
 
-## Pros
+## CONS
 
 * No Bluetooth
+* One Core
 
 ## Dimensions
 
