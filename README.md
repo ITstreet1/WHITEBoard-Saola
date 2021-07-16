@@ -99,7 +99,7 @@ There are two resistors, 22K and 5.6K as a voltage divider. They are tied to a G
 
 ## LiPo charging
 
-For Li-Po charging tehere is the MCP73831 IC. With a resistor R16 of 2K, charging is set to 500mA charging current. By replacing this resistor you can change the charging current. Here is the table:
+For Li-Po charging there is the MCP73831 IC. With a resistor R16 of 2K, charging is set to 500mA charging current. By replacing this resistor you can change the charging current. Here is the table:
 * 10K - 100mA
 * 5K  - 200mA 
 * 2K  - 500mA
