@@ -83,7 +83,7 @@ If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT
 
 ![20210630_141012](https://user-images.githubusercontent.com/30090189/123969673-bba08080-d9b8-11eb-8d52-94eccd9d4cb3.jpg)
 
-## Options
+## Features
 
 ### User button BTN
 
