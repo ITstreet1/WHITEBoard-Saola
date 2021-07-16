@@ -73,7 +73,7 @@ in File->Preferences->URL and then install through board manager. When done, jus
 
 #### OTG PORT
 
-To use this port to upload the sketch, first, you need to install a driver for ESP32-S2. First, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S2 (Interface_2)). After that, Saola will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method.
+To use this port to upload the sketch, then you need to install a driver for ESP32-S2. First, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S2 (Interface_2)). After that, Saola will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method.
 
 ### CircuitPython
 
