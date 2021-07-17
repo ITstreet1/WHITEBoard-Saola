@@ -122,6 +122,51 @@ If the project is for use with a battery, there is a switch on the right side th
 
 WHITEBoard Saola has a two-row header with 42 pins in total. Depending on the purpose, pins are in a different color. Red for power, black as GND, blue GPIO, and white are special pins. Here you can find the boards diagram so check it out. As I mention, WHITEBoard Saola has all ESP32-S2 pins break out. That is the reason for the size of the board, besides 0805 components and soldering on one side only. To power additional sensors and modules, there are two GND pins and two power pins (5V and 3.3V). There is no VIN pin (check the Power part above). As for white pins, special ones are considered GPIO0 as BOOT pin, GPIO1 (ADC1_0) where voltage divider for battery measurement is tied. There is a jumper selection under the board. I2C pins(GPIO8 and GPIO9), R for Reset, TX and RX for obvious reasons, and GPIO40 and GPIO18. These last two are used for user BTN and RGB LED. The same goes as for GPIO1. GPIO pins are NOT 5V TOLERANT!!! Use some logic shifter, voltage divider, or OP-AMP when interfacing 5V devices.
 
+* First Row
+  * 3V3
+  * GPIO0 (BOOT)
+  * GPIO1 (Battery meter)
+  * GPIO2
+  * GPIO3
+  * GPIO4
+  * GPIO5
+  * GPIO6
+  * GPIO7
+  * GPIO8 (SDA)
+  * GPIO9 (SCL)
+  * GPIO10
+  * GPIO11
+  * GPIO12
+  * GPIO13
+  * GPIO14
+  * GPIO15
+  * GPIO16
+  * GPIO17
+  * 5V
+  * G
+* Second Row
+  * G
+  * R
+  * GPIO46
+  * GPIO45
+  * RX
+  * TX
+  * GPIO42
+  * GPIO41
+  * GPIO40 (usr BTN)
+  * GPIO39
+  * GPIO38
+  * GPIO37 (MISO)
+  * GPIO36 (SCK)
+  * GPIO35 (MOSI)
+  * GPIO34 (SS)
+  * GPIO33
+  * GPIO26
+  * GPIO21
+  * GPIO20
+  * GPIO19
+  * GPIO18 (RGB LED)
+
 ## PROS
 
 * LiPo battery
