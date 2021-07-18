@@ -101,7 +101,7 @@ There are two resistors, 22K and 5.6K as a voltage divider. They are tied to a G
 
 For power management, this board uses two ICs. MCP73831 For battery management check the LiPo charging section below.
 WHITEBoard Saola can be powered up by any of the micro USB connectors. 5V rail is going to the SE5218 voltage regulator. This is an LDO that provides 3.3V@500mA. While testing, I had ZERO issues with stability. But it also means that Saola can not directly power up some power-hungry sensors or modules. In such a case, use an external power supply.
-There is no dedicated VIN pin to power WHITEBoard Saola through pinout. However, pin 5V can be used to power Saola with REGULATED 5V DC. Do not use pin 3V3 in a similar manner.
+There is no dedicated VIN pin to power WHITEBoard Saola through pinout. However, pin 5V can be used to power Saola with REGULATED 5V DC. Do not use pin 3V3 in a similar manner. However, you CAN NOT charge battery through 5V pin.
 The switch under the board is manipulating with the EN pin of the LDO. This way powers up the board. There is a MOSFET for switching the power supply. Saola will cut the battery when there is 5V power on micro USBs or 5V pin. Charging the battery remains all the time when there is 5V. The same goes for the power switch position.
 
 ## LiPo charging
