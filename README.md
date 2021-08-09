@@ -106,7 +106,7 @@ The next steps are to use your favorite CircuitPython editor and program this bo
 
 ### MicroPython
 
--- under construction section --
+Not supported yet.
 
 ![20210630_141012](https://user-images.githubusercontent.com/30090189/123969673-bba08080-d9b8-11eb-8d52-94eccd9d4cb3.jpg)
 
