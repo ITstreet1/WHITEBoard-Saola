@@ -77,7 +77,32 @@ To use this port to upload the sketch, first you need to install a driver for ES
 
 ### CircuitPython
 
-If your choice is CircuitPython, there is an OTG micro USB port. To enter a BOOT mode for programming a CircuitPython you must hold pressed BOOT button while connecting the WHITEBoard Saola to a PC. 
+If your choice is a CircuitPython, you need to have installed the latest version of Python. To check what version you have, open Command Prompt and type in:
+
+*python --version*
+
+For erasing and uploading a firmware on ESP32-S2 you need Development mode Esptool, download it by typing:
+
+*git clone https://github.com/espressif/esptool.git*
+*cd esptool*
+*pip install -e .*
+
+If no problem you should get a massage everything is ok. To check if everything is ok, type in:
+
+*esptool.py*
+
+You should get a list of commands with list of supported chips, in our case esp32s2. The next step is to download a BIN fajl of CircuiPython. Go to https://circuitpython.org and search Wroom as that is the modul of ESP32-S2 we use here. Select Saola1 w/WROOM, that will get you to the download page. Download BIN fajl on some location on your PC.
+The next step is to erease Flash of Esp32-S2. To do connect WHITEBoard Saola to a PC with PROG port, and type in:
+
+*esptool.py --chip esp32s2 erase_flash*
+
+Now it is time to upload the CircuitPython firmware to the WHITEBoard Saola. To do so check on which COM port i Saola (say it is COM7). In prompt type:
+
+*esptool.py --chip esp32s2 --port COM7 --baud 921600 write_flash -z 0x000 C:\{location}adafruit-circuitpython-espressif_saola1_wroom-en_US-6.3.0.bin*
+
+Here you should use appropriate COM port and appropriate path to a downloaded file. The name of the file might not be as one here. Version of the software will change in time to come. After successefully uploaded CircuitPython unplug Saola and plug it again, this time through OTG port. Saola will mount as a drive CIRCUITPYTHON.
+
+### MicroPython
 
 -- under construction section --
 
