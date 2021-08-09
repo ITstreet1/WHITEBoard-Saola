@@ -100,7 +100,7 @@ Now it is time to upload the CircuitPython firmware to the WHITEBoard Saola. To 
 
 *esptool.py --chip esp32s2 --port COM7 --baud 921600 write_flash -z 0x000 C:\{location}adafruit-circuitpython-espressif_saola1_wroom-en_US-6.3.0.bin*
 
-Here you should use the appropriate COM port and appropriate path to a downloaded file. The name of the file might not be as the one here. A version of the software will change in time to come. After successfully uploaded CircuitPython unplugs Saola and plugs it again, this time through the OTG port. Saola will mount as a drive CIRCUITPYTHON.
+Here you should use the appropriate COM port and appropriate path to a downloaded file. The name of the file might not be as the one here. A version of the software will change in time to come. After successfully uploaded CircuitPython unplugs Saola and plugs it again, this time through the OTG port. Saola will mount as a drive CIRCUITPY.
 
 The next steps are to use your favorite CircuitPython editor and program this board. I use MU (codewith.mu). Select WHITEBoard Saola in MU by clicking Mode and Adafruit CircuitPython. The name of a code to works automatically has to be code.py. When done, just press Save, and Saola will automatically start running the code.
 
