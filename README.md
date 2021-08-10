@@ -84,7 +84,9 @@ If your choice is a CircuitPython, you need to have installed the latest version
 For erasing and uploading a firmware on ESP32-S2 you need Development mode Esptool, download it by typing:
 
 *git clone https://github.com/espressif/esptool.git*
+
 *cd esptool*
+
 *pip install -e .*
 
 If no problem you should get a massage everything is ok. To check if everything is ok, type in:
