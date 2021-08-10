@@ -94,7 +94,7 @@ If no problem you should get a massage everything is ok. To check if everything 
 *esptool.py*
 
 You should get a list of commands with list of supported chips, in our case esp32s2. The next step is to download a BIN fajl of CircuiPython. Go to https://circuitpython.org and search Wroom as that is the modul of ESP32-S2 we use here. Select Saola1 w/WROOM, that will get you to the download page. Download BIN fajl on some location on your PC.
-The next step is to erease Flash of Esp32-S2. To do connect WHITEBoard Saola to a PC with PROG port, and type in:
+The next step is to erease Flash of Esp32-S2. To do so connect WHITEBoard Saola to a PC with PROG port, and type in:
 
 *esptool.py --chip esp32s2 erase_flash*
 
