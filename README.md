@@ -96,7 +96,7 @@ The next step is to erease Flash of Esp32-S2. To do connect WHITEBoard Saola to 
 
 *esptool.py --chip esp32s2 erase_flash*
 
-Now it is time to upload the CircuitPython firmware to the WHITEBoard Saola. To do so check on which COM port i Saola (say it is COM7). In prompt type:
+Now it is time to upload the CircuitPython firmware to the WHITEBoard Saola. To do so check on which COM port is Saola (say it is COM7). In prompt type:
 
 *esptool.py --chip esp32s2 --port COM7 --baud 921600 write_flash -z 0x000 C:\{location}adafruit-circuitpython-espressif_saola1_wroom-en_US-6.3.0.bin*
 
